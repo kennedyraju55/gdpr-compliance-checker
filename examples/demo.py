@@ -24,7 +24,7 @@ def main():
     print("📝 Example: check_compliance()")
     result = check_compliance(
         content="The quick brown fox jumps over the lazy dog. This is sample content for demonstration.",
-        check_type=3
+        check_type="sample data"
     )
     print(f"   Result: {result}")
     print()
